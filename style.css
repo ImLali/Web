@@ -1,0 +1,70 @@
+#tarolo {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    background-color: yellow;
+}
+
+#zold, #lila, #sarga {
+    width: 100px;
+    height: 100px;
+    display: flex;    
+    justify-content: center; 
+    align-items: center;
+}
+
+#zold{
+    background-color: green;
+    visibility: hidden;
+    order: 3;
+}
+
+#lila{
+    background-color: purple;
+    order: 2;
+}
+
+#sarga{
+    background-color: yellow;
+    visibility: hidden;
+    order: 1;
+}
+
+/*masodik*/
+
+#masodiktarolo{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+        align-items: center;
+    background-color: yellow;
+}
+
+#masodiklila {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+/*harmadik*/
+
+#harmadiktarolo{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    justify-content: center;
+    gap: 175px;
+}
+
+#harmadiklila {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    
+}
+
