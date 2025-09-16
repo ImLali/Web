@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+.header {
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+}
+.nav-item {
+  width: 100px;
+  height: 25px;
+  background-color: cyan;
+  border: 3px solid #8b008b;
+}
+.main {
+  display: flex;
+  margin-top: 0;
+}
+.content {
+  flex: 3;
+  background-color: yellow;
+  height: 500px;
+}
+.sidebar {
+  flex: 1;
+  background-color: green;
+  height: 500px;
+}
